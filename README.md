@@ -1,3 +1,3 @@
 # learing-css
-CSS "Beginning my journey in learning JavaScript 🚀<br>
+CSS "Beginning my journey in learning Css" 🚀<br>
 "Krish Pahari"
