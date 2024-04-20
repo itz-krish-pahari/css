@@ -1,9 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    border: 5px solid black;
+  border: 10px solid #1d1e4c;
+  background-color: #e5e5fd;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.hero_section img,
+section:nth-child(1) div:nth-child(1) {
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero_section div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.hero_section div:nth-child(2) h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.hero_section div:nth-child(2) h4 {
+  font-size: 28px;
+  text-align: end;
+}
+.about_section {
+  margin: 70px 0px 30px 0;
+}
+.about_section h1 {
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 400;
+  color: #1d1e4c;
+  text-align: center;
+}
+.about_section p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.bio_sction h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.bio_sction ul {
+    margin-left: 50px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: end;
+    font-size: 20px;
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+
 }
